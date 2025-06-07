@@ -74,10 +74,15 @@ public class Main {
 //        System.out.println(y);
 
 //        Explicit Casting
-        double num = 10.99;
-        int result = (int) num;  // double to int (narrowing)
-        System.out.println(result); // Output: 10
+//        double num = 10.99;
+//        int result = (int) num;  // double to int (narrowing)
+//        System.out.println(result); // Output: 10
 
+
+//        Explicit Convertion using a method
+        String str = "123";
+        int num = Integer.parseInt(str);  // ✅ explicit conversion using a method
+        System.out.println(num);
 
     }
 }
