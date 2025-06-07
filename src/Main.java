@@ -61,13 +61,22 @@ public class Main {
 
 //      prints 2,2 since x is incremented first and then set to y
 
-        int x = 1;
-        x += 2;  // Augmented operator
+//        int x = 1;
+//        x += 2;  // Augmented operator
+//
+//        System.out.println(x);
 
-        System.out.println(x);
+//        Casting
+//        Implicit Casting (Casting automatically short to int in below example)
+//        byte > short > int > long > float > double
+//        short x = 1;
+//        int y = x + 2;
+//        System.out.println(y);
 
-
-
+//        Explicit Casting
+        double num = 10.99;
+        int result = (int) num;  // double to int (narrowing)
+        System.out.println(result); // Output: 10
 
 
     }
