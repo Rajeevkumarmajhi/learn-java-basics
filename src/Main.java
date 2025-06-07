@@ -42,7 +42,29 @@ public class Main {
 //        System.out.println(Arrays.deepToString(numbers));
 
 //        Constants Declarations
-        final float PI = 3.14F;
+//        final float PI = 3.14F;
+//
+//        System.out.println(PI);
+
+//        Arithmetic Expression
+//        int x = 1;
+//        int y = x++;
+//        System.out.println(x);
+//        System.out.println(y);
+//
+//        print 2,1 since y= x first then x++
+
+//        int x = 1;
+//        int y = ++x;
+//        System.out.println(x);
+//        System.out.println(y);
+
+//      prints 2,2 since x is incremented first and then set to y
+
+        int x = 1;
+        x += 2;  // Augmented operator
+
+        System.out.println(x);
 
 
 
