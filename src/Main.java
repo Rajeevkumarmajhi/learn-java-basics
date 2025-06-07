@@ -4,6 +4,7 @@ import java.math.RoundingMode;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -112,8 +113,19 @@ public class Main {
 //        System.out.println(result);
 
 //        Formatting to percentage using method chaining
-        String result = NumberFormat.getPercentInstance().format(0.1);
-        System.out.println(result);
+//        String result = NumberFormat.getPercentInstance().format(0.1);
+//        System.out.println(result);
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Age : ");
+//        byte age = scanner.nextByte();
+//        System.out.println("You are " + age);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name : ");
+        String name = scanner.nextLine().trim();
+        System.out.println("You are " + name);
+
 
 
 
