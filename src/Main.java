@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -14,15 +15,31 @@ public class Main {
         boolean isEligible = false;
 
         // Reference Types (Objects)
-        Integer housesCount = 200000;
-        String DeveloperName = "Rajeev Kumar Majhi";
-        Date now = new Date();
+//        Integer housesCount = 200000;
+//        String DeveloperName = "Rajeev Kumar Majhi";
+//        Date now = new Date();
+//
+//        Point point = new Point(5,6);
+//        Point point1 = point;
+//
+//        point.x = 9;
+//        System.out.println(point1.x);
 
-        Point point = new Point(5,6);
-        Point point1 = point;
 
-        point.x = 9;
+        // Arrays
+//        int[] numbers = { 2,4,6,3,5 };
 
-        System.out.println(point1.x);
+        // sort array
+//        Arrays.sort(numbers);
+//        System.out.println(Arrays.toString(numbers));
+
+        // Multi dimentional array
+//        int[][] numbers = new int[2][3];
+//        numbers[0][0] = 1;
+        int [][] numbers = { {1,2,3}, {4,5,6} };
+
+
+        System.out.println(Arrays.deepToString(numbers));
+
     }
 }
