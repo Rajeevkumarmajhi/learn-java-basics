@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -103,6 +104,16 @@ public class Main {
 //        Random Number
 //        int randomNumber = (int)(Math.random() * 100);
 //        System.out.println(randomNumber);
+
+//        Formatting Number
+//        Formatting Currency
+//        NumberFormat currency = NumberFormat.getCurrencyInstance();
+//        String result = currency.format(1234567.891);
+//        System.out.println(result);
+
+//        Formatting to percentage using method chaining
+        String result = NumberFormat.getPercentInstance().format(0.1);
+        System.out.println(result);
 
 
 
