@@ -7,12 +7,12 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         // Primitive Data
-        byte age = 33;
-        int count = 2000;
-        long viewsCount = 3_123_456_789L;
-        float price = 10.9F;
-        char letter = 'A';
-        boolean isEligible = false;
+//        byte age = 33;
+//        int count = 2000;
+//        long viewsCount = 3_123_456_789L;
+//        float price = 10.9F;
+//        char letter = 'A';
+//        boolean isEligible = false;
 
         // Reference Types (Objects)
 //        Integer housesCount = 200000;
@@ -36,10 +36,17 @@ public class Main {
         // Multi dimentional array
 //        int[][] numbers = new int[2][3];
 //        numbers[0][0] = 1;
-        int [][] numbers = { {1,2,3}, {4,5,6} };
+//        int [][] numbers = { {1,2,3}, {4,5,6} };
+//
+//
+//        System.out.println(Arrays.deepToString(numbers));
+
+//        Constants Declarations
+        final float PI = 3.14F;
 
 
-        System.out.println(Arrays.deepToString(numbers));
+
+
 
     }
 }
