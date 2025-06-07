@@ -1,4 +1,6 @@
 import java.awt.*;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -80,9 +82,32 @@ public class Main {
 
 
 //        Explicit Convertion using a method
-        String str = "123";
-        int num = Integer.parseInt(str);  // ✅ explicit conversion using a method
-        System.out.println(num);
+//        String str = "123";
+//        int num = Integer.parseInt(str);  // ✅ explicit conversion using a method
+//        System.out.println(num);
+
+//        The Math Class
+
+//        int result = Math.round(1.45F);
+//        System.out.println(result);
+
+//        int result = (int)Math.ceil(1.1F);
+//        int result2 = (int)Math.floor(1.1F);
+//        int result3 = Math.max(result,result2);
+//        int result4 = Math.min(result,result2);
+//        System.out.println(result);
+//        System.out.println(result2);
+//        System.out.println(result3);
+//        System.out.println(result4);
+
+//        Random Number
+//        int randomNumber = (int)(Math.random() * 100);
+//        System.out.println(randomNumber);
+
+
+
+
+
 
     }
 }
