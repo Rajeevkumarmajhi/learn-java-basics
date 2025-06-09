@@ -24,14 +24,18 @@ public class Main {
 
 //        && AND || OR || ! Not
 
-        if(x == y){
-    // do something
-        }else if( x == 2 ){
-            // do something else if condition matches
-        }else{
+//        if(x == y){
+//    // do something
+//        }else if( x == 2 ){
+//            // do something else if condition matches
+//        }else{
+//
+//            // do something else as fallback
+//        }
 
-            // do something else as fallback
-        }
+//        Ternary Operator
+        int income  = 120_000;
+        System.out.println( (income > 200_000) ? "High Income" : "Low Income" );
 
 
 
