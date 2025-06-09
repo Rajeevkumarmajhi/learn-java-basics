@@ -13,16 +13,25 @@ public class Main {
         int x = 1;
         int y = 1;
 
-        System.out.println(x == y);
-        System.out.println(x != y);
-        System.out.println(x <= y);
-        System.out.println(x >= y);
-        System.out.println(x < y);
-        System.out.println(y < x);
-        System.out.println(x > y);
-        System.out.println(y > x);
+//        System.out.println(x == y);
+//        System.out.println(x != y);
+//        System.out.println(x <= y);
+//        System.out.println(x >= y);
+//        System.out.println(x < y);
+//        System.out.println(y < x);
+//        System.out.println(x > y);
+//        System.out.println(y > x);
 
 //        && AND || OR || ! Not
+
+        if(x == y){
+    // do something
+        }else if( x == 2 ){
+            // do something else if condition matches
+        }else{
+
+            // do something else as fallback
+        }
 
 
 
