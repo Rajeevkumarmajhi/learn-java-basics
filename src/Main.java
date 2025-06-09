@@ -34,9 +34,21 @@ public class Main {
 //        }
 
 //        Ternary Operator
-        int income  = 120_000;
-        System.out.println( (income > 200_000) ? "High Income" : "Low Income" );
+//        int income  = 120_000;
+//        System.out.println( (income > 200_000) ? "High Income" : "Low Income" );
 
+//        Switch Statement
+        String role = "admin";
+
+        switch (role) {
+            case "admin":
+                System.out.println("You are admin");
+                break;
+            case "staff":
+                System.out.println("You are staff");
+            default:
+                System.out.println("You are a guest");
+        }
 
 
 
