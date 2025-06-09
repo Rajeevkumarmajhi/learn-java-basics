@@ -10,8 +10,8 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args){
-        int x = 1;
-        int y = 1;
+//        int x = 1;
+//        int y = 1;
 
 //        System.out.println(x == y);
 //        System.out.println(x != y);
@@ -52,21 +52,24 @@ public class Main {
 
 //        Fizz Buzz mini app test
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Number : ");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Number : ");
+//
+//        int number = scanner.nextInt();
+//
+//        if(number % 5 == 0 && number % 3 == 0)
+//            System.out.println("FizzBuzz");
+//        else if(number % 5 == 0)
+//            System.out.println("Fizz");
+//        else if(number % 3 == 0)
+//            System.out.println("Buzz");
+//        else
+//            System.out.println(number);
 
-        int number = scanner.nextInt();
+//        For Loops
 
-        if(number % 5 == 0 && number % 3 == 0)
-            System.out.println("FizzBuzz");
-        else if(number % 5 == 0)
-            System.out.println("Fizz");
-        else if(number % 3 == 0)
-            System.out.println("Buzz");
-        else
-            System.out.println(number);
-
-
+        for (int  i = 0; i <= 5 ; i++)
+            System.out.println("Number : " + i);
 
     }
 }
