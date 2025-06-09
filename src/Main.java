@@ -71,10 +71,17 @@ public class Main {
 //        for (int  i = 0; i <= 5 ; i++)
 //            System.out.println("Number : " + i);
 
+//        int i = 0;
+//        while(i <= 5){
+//            System.out.println("Number :" + i);
+//            i++;
+//        }
+
         int i = 0;
-        while(i <= 5){
+        do{
             System.out.println("Number :" + i);
             i++;
-        }
+        }while(i <= 5);
+
     }
 }
