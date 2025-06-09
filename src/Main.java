@@ -77,11 +77,23 @@ public class Main {
 //            i++;
 //        }
 
-        int i = 0;
-        do{
-            System.out.println("Number :" + i);
-            i++;
-        }while(i <= 5);
+//        int i = 0;
+//        do{
+//            System.out.println("Number :" + i);
+//            i++;
+//        }while(i <= 5);
+
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
+        while (!input.equals("quit")){
+            System.out.print("Input : ");
+            input = scanner.next().toLowerCase();
+            if(input.equals("pass"))
+                continue;
+            if(input.equals("quit"))
+                break;
+            System.out.println(input);
+        }
 
     }
 }
